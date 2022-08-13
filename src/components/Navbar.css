@@ -1,14 +1,14 @@
-.nav{
-height: 60px;
-display: flex;
-justify-content: space-between;
-padding: 1rem 2rem;
-position: fixed;
-width: 100%;
-background: red;
+.nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  background: red;
 }
 
-h1{
+h1 {
   color: white;
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@ h1{
   font-style: italic;
 }
 
-.navMenu{
+.navMenu {
   color: white;
   display: flex;
   align-items: center;
@@ -27,19 +27,18 @@ h1{
   margin-right: -48px;
 }
 
-.navMenu li{
+.navMenu li {
   padding: 0 1rem;
   align-items: center;
   text-decoration: none;
   cursor: pointer;
   display: flex;
   justify-content: center;
-  height: 100%; 
+  height: 100%;
 }
 
-@media screen and (max-width: 768px){
-  .navMenu{
+@media screen and (max-width: 768px) {
+  .navMenu {
     display: none;
   }
-  
 }
