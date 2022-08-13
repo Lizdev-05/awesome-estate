@@ -18,6 +18,12 @@ const Button = styled(Link)`
   &:hover{
     transfom: translateY(-2px);
   }
+
+  
+@media screen and (max-width: 768px){
+    display: none;
+  }
+  
   `;
 
 export default Button;
