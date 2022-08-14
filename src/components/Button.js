@@ -10,6 +10,7 @@ const Button = styled(Link)`
   min-width:100px;
   max-width:200px;
   text-decoration: none;
+  display: flex; 
   justify-content: center;
   align-item: center;
   padding: ${({ big }) => (big ? '16px 40px' : '14px 24px')};
