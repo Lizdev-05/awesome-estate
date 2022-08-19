@@ -1,4 +1,4 @@
-// import slider1 from '../images/slider1.jpg';
+import slider1 from '../images/slider1.jpg';
 import slider2 from '../images/slider2.jpg';
 import slider3 from '../images/slider3.jpg';
 import slider4 from '../images/slider4.jpg';
@@ -13,7 +13,7 @@ const Slider = [
     price: '$937,000',
     path: '/homes',
     label: 'View Home',
-    image: slider5,
+    image: slider1,
     alt: 'House',
     id: 1,
   },
@@ -44,43 +44,51 @@ const Slider = [
     alt: 'House',
     id: 4,
   },
+  {
+    title: 'Mansion in Saratoga Springs, NY',
+    price: '2,954,000',
+    path: '/homes',
+    label: 'View Home',
+    image: slider5,
+    alt: 'House',
+  },
 
 ];
 
 export default Slider;
 
 // export const SliderDataTwo = [
-//   {
-//     title: 'Mansion in Saratoga Springs, NY',
-//     price: '2,954,000',
-//     path: '/homes',
-//     label: 'View Home',
-//     image: slider5,
-//     alt: 'House',
-//   },
-//   {
-//     title: 'Lake House in Westport, NY',
-//     price: '937,000',
-//     path: '/homes',
-//     label: 'View Home',
-//     image: slider6,
-//     alt: 'House',
-//   },
-//   {
-//     title: 'Estate in Lake George, NY',
-//     price: '4,198,100',
-//     path: '/homes',
-//     label: 'View Home',
-//     image: slider7,
-//     alt: 'House',
-//   },
-//   {
-//     title: 'Lake House in Saranac Lake, NY',
-//     price: '2,750,000',
-//     path: '/homes',
-//     label: 'View Home',
-//     image: slider8,
-//     alt: 'House',
-//   },
+// {
+//   title: 'Mansion in Saratoga Springs, NY',
+//   price: '2,954,000',
+//   path: '/homes',
+//   label: 'View Home',
+//   image: slider5,
+//   alt: 'House',
+// },
+// {
+//   title: 'Lake House in Westport, NY',
+//   price: '937,000',
+//   path: '/homes',
+//   label: 'View Home',
+//   image: slider6,
+//   alt: 'House',
+// },
+// {
+//   title: 'Estate in Lake George, NY',
+//   price: '4,198,100',
+//   path: '/homes',
+//   label: 'View Home',
+//   image: slider7,
+//   alt: 'House',
+// },
+// {
+//   title: 'Lake House in Saranac Lake, NY',
+//   price: '2,750,000',
+//   path: '/homes',
+//   label: 'View Home',
+//   image: slider8,
+//   alt: 'House',
+// },
 
 // ];
