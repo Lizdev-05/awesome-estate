@@ -1,10 +1,11 @@
 import React from 'react';
 import styled, { css } from 'styled-components/macro';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import Button from './Button';
 
-const MenuData = [
+export const MenuData = [
   { title: 'About', link: './about', id: 1 },
   { title: 'Home', link: './home', id: 2 },
   { title: 'Rentals', link: './rentals', id: 3 },
@@ -84,10 +85,10 @@ const NavBtn = styled.div`
   }
 `;
 
-const Navbar = () => (
+const Navbar = ({ toggle }) => (
   <Nav>
     <Logo to="/">LIZDEV EMPIRE</Logo>
-    <MenuBars />
+    <MenuBars onClick={toggle} />
     <NavMenu>
       {MenuData.map((item) => (
         <NavMenuLinks to={item.link} key={item.id}>
@@ -100,5 +101,9 @@ const Navbar = () => (
     </NavBtn>
   </Nav>
 );
+
+Navbar.propTypes = {
+  toggle: PropTypes.string.isRequired,
+};
 
 export default Navbar;

@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa';
-import { menuData } from '../data/MenuData';
+import { MenuData } from './Navbar';
 import Button from './Button';
 
 const DropdownContainer = styled.div`
@@ -10,7 +11,7 @@ const DropdownContainer = styled.div`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #348a4b;
+    background: #B90E08;
     display: grid;
     align-items: center;
     top: 0;
@@ -81,7 +82,7 @@ const Dropdown = ({ isOpen, toggle }) => (
     </Icon>
     <DropdownWrapper>
       <DropdownMenu>
-        {menuData.map((item, index) => (
+        {MenuData.map((item, index) => (
           // eslint-disable-next-line react/no-array-index-key
           <DropdownLink to={item.link} key={index}>
             {item.title}
@@ -89,12 +90,17 @@ const Dropdown = ({ isOpen, toggle }) => (
         ))}
       </DropdownMenu>
       <BtnWrap>
-        <Button primary="true" round="round" big="true" to="/contact">
+        <Button primary="true" round="true" big="true" to="/contact">
           Contact Us
         </Button>
       </BtnWrap>
     </DropdownWrapper>
   </DropdownContainer>
 );
+
+Dropdown.propTypes = {
+  toggle: PropTypes.string.isRequired,
+  isOpen: PropTypes.string.isRequired,
+};
 
 export default Dropdown;
