@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
+  z-index: 100;
   position: fixed;
   width: 100%;
   background: red;
@@ -33,7 +34,6 @@ h1 {
   text-decoration: none;
   cursor: pointer;
   display: flex;
-  justify-content: center;
   height: 100%;
 }
 
