@@ -1,11 +1,11 @@
-import slider1 from '../images/slider1.jpg';
-import slider2 from '../images/slider2.jpg';
-import slider3 from '../images/slider3.jpg';
-// import slider4 from '../images/slider4.jpg';
-import slider5 from '../images/slider5.jpg';
-// import slider6 from '../images/slider6.jpg';
-import slider11 from '../images/slider11.jpg';
-// import slider8 from '../images/slider8.jpg';
+import slider1 from '../assets/images/slider1.jpg';
+import slider2 from '../assets/images/slider2.jpg';
+import slider3 from '../assets/images/slider3.jpg';
+// import slider4 from '../assets/images/slider4.jpg';
+import slider5 from '../assets/images/slider5.jpg';
+// import slider6 from '../assets/images/slider6.jpg';
+import slider11 from '../assets/images/slider11.jpg';
+// import slider8 from '../assets/images/slider8.jpg';
 
 const Slider = [
   {

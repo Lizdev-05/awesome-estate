@@ -102,7 +102,7 @@ const Navbar = ({ toggle }) => (
 );
 
 Navbar.propTypes = {
-  toggle: PropTypes.string.isRequired,
+  toggle: PropTypes.func.isRequired,
 };
 
 export default Navbar;

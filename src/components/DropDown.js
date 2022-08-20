@@ -99,8 +99,8 @@ const Dropdown = ({ isOpen, toggle }) => (
 );
 
 Dropdown.propTypes = {
-  toggle: PropTypes.string.isRequired,
-  isOpen: PropTypes.string.isRequired,
+  toggle: PropTypes.func.isRequired,
+  isOpen: PropTypes.bool.isRequired,
 };
 
 export default Dropdown;
