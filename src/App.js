@@ -4,6 +4,10 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Slider from './data/Slider';
 import Dropdown from './components/DropDown';
+import Form from './components/Form';
+import Featured from './featured/Featured';
+import './App.css';
+import Pages from './assets/pages/Pages';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +22,9 @@ function App() {
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Hero slides={Slider} />
+      <Form />
+      <Featured />
+      <Pages />
     </>
   );
 }

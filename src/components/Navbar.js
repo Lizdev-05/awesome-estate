@@ -6,9 +6,11 @@ import { FaBars } from 'react-icons/fa';
 import Button from './Button';
 
 export const MenuData = [
-  { title: 'About', link: './about', id: 1 },
-  { title: 'Home', link: './home', id: 2 },
-  { title: 'Rentals', link: './rentals', id: 3 },
+  { title: 'Home', link: '/', id: 1 },
+  { title: 'About', link: '/about', id: 2 },
+  { title: 'Services', link: '/services', id: 3 },
+  { title: 'Blog', link: '/blog', id: 4 },
+  { title: 'Pricing', link: '/pricing', id: 5 },
 ];
 
 const Nav = styled.nav`

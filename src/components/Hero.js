@@ -62,6 +62,7 @@ const HeroImage = styled.img`
     left: 0;
     width: 100vw;
     height: 100vh;
+    filter: brightness(60%);
     object-fit: cover;
 `;
 
@@ -90,6 +91,7 @@ const HeroContent = styled.div`
 
 const Arrow = styled(IoMdArrowRoundForward)`
     margin-left: 0.5rem;
+    margin-top: 0.4rem;
 `;
 
 const SliderButtons = styled.div`
@@ -137,7 +139,7 @@ const Hero = ({ slides }) => {
   //       setCurrent((current) => (current === length - 1 ? 0 : current + 1));
   //     };
 
-  //     timeout.current = setTimeout(nextSlide, 1000);
+  //     timeout.current = setTimeout(nextSlide, 4000);
 
   //     return function () {
   //       if (timeout.current) {
