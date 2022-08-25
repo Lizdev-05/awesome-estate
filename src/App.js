@@ -12,6 +12,7 @@ import Awards from './components/Award';
 import Location from './components/Location';
 import './App.css';
 import Team from './components/Team';
+import Price from './components/Price';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +33,8 @@ function App() {
       <Awards />
       <Location />
       <Team />
-      {/* <Pages /> */}
+      <Price />
+      <Footer />
     </>
   );
 }
