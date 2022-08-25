@@ -4,6 +4,14 @@ import coverThree from '../assets/images/hero/h3.png';
 import coverFour from '../assets/images/hero/h4.png';
 import coverFive from '../assets/images/hero/h6.png';
 
+// Location images
+import cityOne from '../assets/images/location/city-1.png';
+import cityTwo from '../assets/images/location/city-2.png';
+import cityThree from '../assets/images/location/city-3.png';
+import cityFour from '../assets/images/location/city-4.png';
+import cityFive from '../assets/images/location/city-5.png';
+import citySix from '../assets/images/location/city-6.png';
+
 export const featured = [
   {
     cover: coverOne,
@@ -116,7 +124,7 @@ export const location = [
     Villas: '12 Villas',
     Apartments: '10 Apartments',
     Offices: '07 Offices',
-    cover: './images/location/city-1.png',
+    cover: cityOne,
   },
   {
     id: 2,
@@ -124,7 +132,7 @@ export const location = [
     Villas: '12 Villas',
     Apartments: '10 Apartments',
     Offices: '07 Offices',
-    cover: './images/location/city-2.png',
+    cover: cityTwo,
   },
   {
     id: 3,
@@ -132,7 +140,7 @@ export const location = [
     Villas: '12 Villas',
     Apartments: ' 10 Apartments',
     Offices: '07 Offices',
-    cover: './images/location/city-3.png',
+    cover: cityThree,
   },
   {
     id: 4,
@@ -140,7 +148,7 @@ export const location = [
     Villas: '12 Villas',
     Apartments: ' 10 Apartments',
     Offices: '07 Offices',
-    cover: './images/location/city-4.png',
+    cover: cityFour,
   },
   {
     id: 5,
@@ -148,7 +156,7 @@ export const location = [
     Villas: '12 Villas',
     Apartments: ' 10 Apartments',
     Offices: '07 Offices',
-    cover: './images/location/city-5.png',
+    cover: cityFive,
   },
   {
     id: 6,
@@ -156,7 +164,7 @@ export const location = [
     Villas: '12 Villas',
     Apartments: ' 10 Apartments',
     Offices: '07 Offices',
-    cover: './images/location/city-6.png',
+    cover: citySix,
   },
 ];
 export const price = [

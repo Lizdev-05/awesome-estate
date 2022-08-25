@@ -8,7 +8,8 @@ import Form from './components/Form';
 import Featured from './featured/Featured';
 import Recent from './recent/Recent';
 import Awards from './components/Award';
-import Pages from './pages/Pages';
+// import Pages from './pages/Pages';
+import Location from './components/Location';
 import './App.css';
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
       <Featured />
       <Recent />
       <Awards />
-      <Pages />
+      <Location />
+      {/* <Pages /> */}
     </>
   );
 }
