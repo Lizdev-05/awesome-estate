@@ -6,8 +6,10 @@ import Slider from './data/Slider';
 import Dropdown from './components/DropDown';
 import Form from './components/Form';
 import Featured from './featured/Featured';
+import Recent from './recent/Recent';
+import Awards from './components/Award';
+import Pages from './pages/Pages';
 import './App.css';
-import Pages from './assets/pages/Pages';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +26,8 @@ function App() {
       <Hero slides={Slider} />
       <Form />
       <Featured />
+      <Recent />
+      <Awards />
       <Pages />
     </>
   );

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from '../../components/Home';
+import Home from '../components/Home';
 // import Footer from '../common/footer/Footer';
-import About from '../../components/About';
-import Pricing from '../../components/Pricing';
-import Blog from '../../components/Blog';
-import Services from '../../components/Services';
-import Contact from '../../components/Contact';
+import About from '../components/About';
+import Pricing from '../components/Pricing';
+import Blog from '../components/Blog';
+import Services from '../components/Services';
+import Contact from '../components/Contact';
 
 const Pages = () => (
   <>
