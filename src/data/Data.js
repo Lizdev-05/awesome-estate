@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import coverOne from '../assets/images/hero/h1.png';
 import coverTwo from '../assets/images/hero/h2.png';
 import coverThree from '../assets/images/hero/h3.png';
@@ -11,6 +12,14 @@ import cityThree from '../assets/images/location/city-3.png';
 import cityFour from '../assets/images/location/city-4.png';
 import cityFive from '../assets/images/location/city-5.png';
 import citySix from '../assets/images/location/city-6.png';
+
+// Team images
+import teamOne from '../assets/images/customer/team-1.jpg';
+import teamTwo from '../assets/images/customer/team-2.jpg';
+import teamThree from '../assets/images/customer/team-3.jpg';
+import teamFour from '../assets/images/customer/team-4.jpg';
+import teamFive from '../assets/images/customer/team-5.jpg';
+// import teamSix from '../assets/images/customer/team-3.jpg';
 
 export const featured = [
   {
@@ -167,6 +176,52 @@ export const location = [
     cover: citySix,
   },
 ];
+
+export const team = [
+  {
+    list: '50',
+    cover: teamOne,
+    address: 'Liverpool, Canada',
+    name: 'Sargam S. Singh',
+    icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
+  },
+  {
+    list: '70',
+    cover: teamTwo,
+    address: 'Montreal, Canada',
+    name: 'Harijeet M. Siller',
+    icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
+  },
+  {
+    list: '80',
+    cover: teamThree,
+    address: 'Denever, USA',
+    name: 'Anna K. Young',
+    icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
+  },
+  {
+    list: '51',
+    cover: teamFour,
+    address: '2272 Briarwood Drive',
+    name: 'Michael P. Grimaldo',
+    icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
+  },
+  {
+    list: '42',
+    cover: teamFive,
+    address: '2272 Briarwood Drive',
+    name: 'Michael P. Grimaldo',
+    icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
+  },
+  {
+    list: '38',
+    cover: teamThree,
+    address: 'Montreal, USA',
+    name: 'Adam K. Jollio',
+    icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
+  },
+];
+
 export const price = [
   {
     plan: 'Basic',

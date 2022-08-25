@@ -11,6 +11,7 @@ import Awards from './components/Award';
 // import Pages from './pages/Pages';
 import Location from './components/Location';
 import './App.css';
+import Team from './components/Team';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,6 +31,7 @@ function App() {
       <Recent />
       <Awards />
       <Location />
+      <Team />
       {/* <Pages /> */}
     </>
   );
