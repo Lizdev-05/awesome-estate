@@ -48,8 +48,6 @@ In order to install a local version of this project and please do the following 
 - Linters
 - GitFlow
 - GitHub
-- VsCode
-- nodejs
 
 
 ## Author
