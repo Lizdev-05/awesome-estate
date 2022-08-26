@@ -3,7 +3,7 @@ import './Form.css';
 
 const Form = () => (
   <div>
-    <div className="container">
+    <div className="container" data-aos="fade-right" data-aos-duration="3000">
       <form className="flex">
         <div className="box">
           <span>City/Street</span>

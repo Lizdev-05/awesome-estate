@@ -10,7 +10,7 @@ const RecentCard = () => (
           image, country, name, price, type, category, id,
         } = val;
         return (
-          <div className="box shadow" key={id}>
+          <div className="box shadow" key={id} data-aos="zoom-in-down">
             <div className="img">
               <img src={image} alt="" />
             </div>

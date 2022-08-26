@@ -6,7 +6,12 @@ import './Award.css';
 const Awards = () => (
   <>
     <section className="awards padding">
-      <div className="container">
+      <div
+        className="container"
+        data-aos="fade-right"
+        data-aos-duration="3000"
+        data-aos-delay="800"
+      >
         <Heading title="Over 1,24,000+ Happy User Bieng With Us Still They Love Our Services" subtitle="Our Awards" />
 
         <div className="content grid4 mtop">

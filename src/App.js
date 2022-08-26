@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import GlobalStyle from './GlobalStyle';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -13,8 +15,13 @@ import Location from './components/Location';
 import './App.css';
 import Team from './components/Team';
 import Price from './components/Price';
+import Footer from './general/Footer';
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {

@@ -13,7 +13,14 @@ const Team = () => (
 
         <div className="content mtop grid3">
           {team.map((val) => (
-            <div className="box" key={val.id}>
+            <div
+              className="box"
+              key={val.id}
+              data-aos="zoom-in"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="3000"
+              data-aos-delay="1200"
+            >
               <div className="details">
                 <div className="img">
                   <img src={val.cover} alt="" />
