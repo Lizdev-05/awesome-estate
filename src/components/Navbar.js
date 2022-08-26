@@ -11,6 +11,7 @@ export const MenuData = [
   { title: 'Services', link: '/services', id: 3 },
   { title: 'Blog', link: '/blog', id: 4 },
   { title: 'Pricing', link: '/pricing', id: 5 },
+  { title: 'Contact', link: '/contact', id: 6 },
 ];
 
 const Nav = styled.nav`

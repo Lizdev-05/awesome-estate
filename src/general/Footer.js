@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-key */
 import React from 'react';
 import { footer } from '../data/Data';
+import logo from '../assets/images/logo3.png';
 import './Footer.css';
 
 const Footer = () => (
@@ -29,7 +30,7 @@ const Footer = () => (
           className="box"
         >
           <div className="logo">
-            <img src="../images/logo-light.png" alt="" />
+            <img src={logo} alt="" className="footerImg" />
             <h2>Do You Need Help With Anything?</h2>
             <p>
               Receive updates, hot deals, tutorials,

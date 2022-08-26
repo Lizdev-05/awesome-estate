@@ -10,7 +10,6 @@ const Contact = () => (
       <div className="container">
         <form className="shadow">
           <h4>Fillup The Form</h4>
-          {' '}
           <br />
           <div>
             <input type="text" placeholder="Name" />
