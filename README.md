@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Awesome Estate
+The Awesome estate web application displays a list of apartments that were provided by a local data. The users can check out the featured and recebt apartment. Also, the user can click the house to get the details of the selected house.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ The application consist of six pages, all of which are functioning.
 
-## Available Scripts
+This is a personal project I built to practise my knowledge of React js. The objective was to mimic the appearance of a dynamic web application, in a similar way a web developer would receive the requirements as if it were in a job.
 
-In the project directory, you can run:
+![](./src/assets/Capture1.PNG)
+![](./src/assets/Capture2.PNG)
+![](./src/assets/Capture3.PNG)
+## Live Demo
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get a local copy up and running follow these simple example steps:
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- A device that support running browser applications.
+- access to internet connection.
 
-### `npm run build`
+### Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### View pages from the browser
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- If you just want to check the webpage/webapp, you have it available on the live demo link.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Install locally the code of the application
 
-### `npm run eject`
+In order to install a local version of this project and please do the following steps:
+- Install the latest version of any code editor.
+- install the latest version of GIT.
+- open your terminal
+- Go to the [repository](https://github.com/Lizdev-05/awesome-estate)  and clone it with `git clone git@github.com:Behnam1369/Awesome-estate.git' .
+- open the repository cloned with `cd Awesome-estate`
+- if your code editor is VsCode type `code .`
+- Install webpack with: `npm install --save-dev webpack webpack-cli`
+- To run it type `nmp run start` or run live server from the docs directory
+- To test it `npm run test`
+- and enjoy!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- CSS
+- JAVASCRIPT
+- React Js
+- Linters
+- GitFlow
+- GitHub
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Ojesanmi Elizabeth Oyin**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@githubhandle](https://github.com/Lizdev-05)
 
-### Code Splitting
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/elizabeth-oyinlade-ojesanmi-0702aa16a)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Please give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+- Hat tip to anyone contributed one way or the other.
+- Inspiration
+- etc
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed
