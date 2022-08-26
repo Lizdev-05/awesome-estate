@@ -4,7 +4,7 @@ import { housesData } from '../data';
 
 const RecentCard = () => (
   <>
-    <div className="content grid3 mtop">
+    <div className="content grid3 mtop radius">
       {housesData.map((val) => {
         const {
           image, country, name, price, type, category, id,
