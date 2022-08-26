@@ -3,7 +3,6 @@ import styled, { css } from 'styled-components/macro';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
-import Contact from './Contact';
 import Button from './Button';
 
 export const MenuData = [
@@ -99,7 +98,7 @@ const Navbar = ({ toggle }) => (
       ))}
     </NavMenu>
     <NavBtn>
-      <Button to="/contact" primary="true"><Contact /></Button>
+      <Button to="/contact" primary="true">Contact</Button>
     </NavBtn>
   </Nav>
 );
