@@ -56,7 +56,7 @@ import Agent12 from './assets/img/agents/agent12.png';
 
 export const housesData = [
   {
-    id: 1,
+    id: '1',
     type: 'House',
     name: 'House 1',
     description:
@@ -68,8 +68,9 @@ export const housesData = [
     bedrooms: '6',
     bathrooms: '3',
     surface: '4200 sq ft',
-    year: '2016',
+    year: '2021',
     price: '110000',
+    category: 'For Sale',
     agent: {
       image: Agent1,
       name: 'Patricia Tullert',
@@ -77,7 +78,7 @@ export const housesData = [
     },
   },
   {
-    id: 2,
+    id: '2',
     type: 'House',
     name: 'House 2',
     description:
@@ -91,6 +92,7 @@ export const housesData = [
     surface: '4200 sq ft',
     year: '2016',
     price: '140000',
+    category: 'For Sale',
     agent: {
       image: Agent2,
       name: 'Daryl Hawker',
@@ -98,7 +100,7 @@ export const housesData = [
     },
   },
   {
-    id: 3,
+    id: '3',
     type: 'House',
     name: 'House 3',
     description:
@@ -112,6 +114,7 @@ export const housesData = [
     surface: '4200 sq ft',
     year: '2016',
     price: '170000',
+    category: 'For Rent',
     agent: {
       image: Agent3,
       name: 'Amado Smith',
@@ -119,7 +122,7 @@ export const housesData = [
     },
   },
   {
-    id: 4,
+    id: '4',
     type: 'House',
     name: 'House 4',
     description:
@@ -133,6 +136,7 @@ export const housesData = [
     surface: '4200 sq ft',
     year: '2016',
     price: '200000',
+    category: 'For Sale',
     agent: {
       image: Agent4,
       name: 'Kaitlyn Gonzalez',
@@ -140,7 +144,7 @@ export const housesData = [
     },
   },
   {
-    id: 5,
+    id: '5',
     type: 'House',
     name: 'House 5',
     description:
@@ -154,6 +158,7 @@ export const housesData = [
     surface: '4200 sq ft',
     year: '2015',
     price: '210000',
+    category: 'For Sale',
     agent: {
       image: Agent5,
       name: 'Grover Robinson',
@@ -161,7 +166,7 @@ export const housesData = [
     },
   },
   {
-    id: 6,
+    id: '6',
     type: 'House',
     name: 'House 6',
     description:
@@ -175,6 +180,7 @@ export const housesData = [
     surface: '6200 sq ft',
     year: '2014',
     price: '220000',
+    category: 'For Sale',
     agent: {
       image: Agent6,
       name: 'Karen Sorensen',
@@ -182,7 +188,7 @@ export const housesData = [
     },
   },
   {
-    id: 7,
+    id: '7',
     type: 'Apartament',
     name: 'Apartament 1',
     description:
@@ -196,6 +202,7 @@ export const housesData = [
     surface: '1200 sq ft',
     year: '2012',
     price: '20000',
+    category: 'For Rent',
     agent: {
       image: Agent7,
       name: 'Jawhar Shamil Naser',
@@ -203,7 +210,7 @@ export const housesData = [
     },
   },
   {
-    id: 8,
+    id: '8',
     type: 'Apartament',
     name: 'Apartament 2',
     description:
@@ -217,6 +224,7 @@ export const housesData = [
     surface: '1000 sq ft',
     year: '2011',
     price: '30000',
+    category: 'For Sale',
     agent: {
       image: Agent8,
       name: 'Juana Douglass',
@@ -224,7 +232,7 @@ export const housesData = [
     },
   },
   {
-    id: 9,
+    id: '9',
     type: 'Apartament',
     name: 'Apartament 3',
     description:
@@ -238,6 +246,7 @@ export const housesData = [
     surface: '1100 sq ft',
     year: '2011',
     price: '40000',
+    category: 'For Sale',
     agent: {
       image: Agent9,
       name: 'Jerry Schenck',
@@ -245,7 +254,7 @@ export const housesData = [
     },
   },
   {
-    id: 10,
+    id: '10',
     type: 'House',
     name: 'House 7',
     description:
@@ -259,6 +268,7 @@ export const housesData = [
     surface: '3200 sq ft',
     year: '2015',
     price: '117000',
+    category: 'For Rent',
     agent: {
       image: Agent10,
       name: 'Vera Levesque',
@@ -266,7 +276,7 @@ export const housesData = [
     },
   },
   {
-    id: 11,
+    id: '11',
     type: 'House',
     name: 'House 8',
     description:
@@ -280,6 +290,7 @@ export const housesData = [
     surface: '2200 sq ft',
     year: '2019',
     price: '145000',
+    category: 'For Rent',
     agent: {
       image: Agent11,
       name: 'Sofia Gomes',
@@ -287,7 +298,7 @@ export const housesData = [
     },
   },
   {
-    id: 12,
+    id: '12',
     type: 'House',
     name: 'House 9',
     description:
@@ -301,6 +312,7 @@ export const housesData = [
     surface: '4600 sq ft',
     year: '2015',
     price: '139000',
+    category: 'For Rent',
     agent: {
       image: Agent12,
       name: 'Raymond Hood',
@@ -308,7 +320,7 @@ export const housesData = [
     },
   },
   {
-    id: 13,
+    id: '13',
     type: 'House',
     name: 'House 10',
     description:
@@ -322,6 +334,7 @@ export const housesData = [
     surface: '5200 sq ft',
     year: '2014',
     price: '180000',
+    category: 'For Rent',
     agent: {
       image: Agent1,
       name: 'Patricia Tullert',
@@ -329,7 +342,7 @@ export const housesData = [
     },
   },
   {
-    id: 14,
+    id: '14',
     type: 'House',
     name: 'House 11',
     description:
@@ -343,6 +356,7 @@ export const housesData = [
     surface: '3200 sq ft',
     year: '2011',
     price: '213000',
+    category: 'For Sale',
     agent: {
       image: Agent2,
       name: 'Daryl Hawker',
@@ -350,7 +364,7 @@ export const housesData = [
     },
   },
   {
-    id: 15,
+    id: '15',
     type: 'House',
     name: 'House 12',
     description:
@@ -364,6 +378,7 @@ export const housesData = [
     surface: '5200 sq ft',
     year: '2013',
     price: '221000',
+    category: 'For Sale',
     agent: {
       image: Agent3,
       name: 'Amado Smith',
@@ -371,7 +386,7 @@ export const housesData = [
     },
   },
   {
-    id: 16,
+    id: '16',
     type: 'Apartament',
     name: 'Apartament 16',
     description:
@@ -385,6 +400,7 @@ export const housesData = [
     surface: '1300 sq ft',
     year: '2011',
     price: '21000',
+    category: 'For Rent',
     agent: {
       image: Agent4,
       name: 'Kaitlyn Gonzalez',
@@ -392,9 +408,9 @@ export const housesData = [
     },
   },
   {
-    id: 17,
+    id: '17',
     type: 'Apartament',
-    name: 'Apartament 17',
+    name: 'Condo 7',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment5,
@@ -406,6 +422,7 @@ export const housesData = [
     surface: '1000 sq ft',
     year: '2012',
     price: '32000',
+    category: 'For Sale',
     agent: {
       image: Agent5,
       name: 'Grover Robinson',
@@ -413,7 +430,7 @@ export const housesData = [
     },
   },
   {
-    id: 18,
+    id: '18',
     type: 'Apartament',
     name: 'Apartament 18',
     description:
@@ -427,6 +444,7 @@ export const housesData = [
     surface: '1200 sq ft',
     year: '2010',
     price: '38000',
+    category: 'For Rent',
     agent: {
       image: Agent6,
       name: 'Karen Sorensen',
@@ -434,3 +452,5 @@ export const housesData = [
     },
   },
 ];
+
+export default housesData;

@@ -6,9 +6,12 @@ import { FaBars } from 'react-icons/fa';
 import Button from './Button';
 
 export const MenuData = [
-  { title: 'About', link: './about', id: 1 },
-  { title: 'Home', link: './home', id: 2 },
-  { title: 'Rentals', link: './rentals', id: 3 },
+  { title: 'Home', link: '/', id: 1 },
+  { title: 'About', link: '/about', id: 2 },
+  { title: 'Services', link: '/services', id: 3 },
+  { title: 'Blog', link: '/blog', id: 4 },
+  { title: 'Pricing', link: '/pricing', id: 5 },
+  { title: 'Contact', link: '/contact', id: 6 },
 ];
 
 const Nav = styled.nav`
@@ -18,8 +21,9 @@ const Nav = styled.nav`
   padding: 1rem 2rem;
   z-index: 100;
   position: fixed;
+  background: #000d1a;
   width: 100%;
-  opacity: 0.75;
+  opacity: 0.5;
   &:hover {
     opacity: 0.90;
     transition: 0.14s ease-in-out;
@@ -96,7 +100,7 @@ const Navbar = ({ toggle }) => (
       ))}
     </NavMenu>
     <NavBtn>
-      <Button to="/contact" primary="true">Contact Us</Button>
+      <Button to="/contact" primary="true">Contact</Button>
     </NavBtn>
   </Nav>
 );

@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-curly-brace-presence */
 /* eslint-disable react/forbid-prop-types */
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import styled, { css } from 'styled-components';
 import PropTypes from 'prop-types';
 import { IoMdArrowRoundForward } from 'react-icons/io';
@@ -62,6 +62,7 @@ const HeroImage = styled.img`
     left: 0;
     width: 100vw;
     height: 100vh;
+    filter: brightness(60%);
     object-fit: cover;
 `;
 
@@ -90,6 +91,7 @@ const HeroContent = styled.div`
 
 const Arrow = styled(IoMdArrowRoundForward)`
     margin-left: 0.5rem;
+    margin-top: 0.4rem;
 `;
 
 const SliderButtons = styled.div`
@@ -131,21 +133,21 @@ const Hero = ({ slides }) => {
   const length = slides.length;
   const timeout = useRef(null);
 
-  // useEffect(
-  //   () => {
-  //     const nextSlide = () => {
-  //       setCurrent((current) => (current === length - 1 ? 0 : current + 1));
-  //     };
+  useEffect(
+    () => {
+      const nextSlide = () => {
+        setCurrent((current) => (current === length - 1 ? 0 : current + 1));
+      };
 
-  //     timeout.current = setTimeout(nextSlide, 1000);
+      timeout.current = setTimeout(nextSlide, 4000);
 
-  //     return function () {
-  //       if (timeout.current) {
-  //         clearTimeout(timeout.current);
-  //       }
-  //     };
-  //   }, [current, length],
-  // );
+      return function () {
+        if (timeout.current) {
+          clearTimeout(timeout.current);
+        }
+      };
+    }, [current, length],
+  );
 
   const nextSlide = () => {
     if (timeout.current) {
