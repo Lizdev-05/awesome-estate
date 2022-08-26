@@ -21,8 +21,9 @@ const Nav = styled.nav`
   padding: 1rem 2rem;
   z-index: 100;
   position: fixed;
+  background: #000d1a;
   width: 100%;
-  opacity: 0.75;
+  opacity: 0.5;
   &:hover {
     opacity: 0.90;
     transition: 0.14s ease-in-out;

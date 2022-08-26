@@ -8,6 +8,10 @@
   font-size: 13px;
   display: inline-block;
 }
+
+.fa-location-dot{
+  margin-right: 0.3rem;
+}
 .recent .category i {
   font-size: 20px;
   color: #bec7d8;
