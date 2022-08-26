@@ -9,6 +9,7 @@ import Blog from '../components/Blog';
 import Services from '../components/Services';
 import Contact from '../components/Contact';
 import Footer from '../general/Footer';
+import HouseDetails from '../recent/HouseDetails';
 
 const Pages = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +29,7 @@ const Pages = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/val/:valId" element={<HouseDetails />} />
       </Routes>
       <Footer />
     </>

@@ -56,7 +56,7 @@ import Agent12 from './assets/img/agents/agent12.png';
 
 export const housesData = [
   {
-    id: 1,
+    id: '1',
     type: 'House',
     name: 'House 1',
     description:
@@ -78,7 +78,7 @@ export const housesData = [
     },
   },
   {
-    id: 2,
+    id: '2',
     type: 'House',
     name: 'House 2',
     description:
@@ -100,7 +100,7 @@ export const housesData = [
     },
   },
   {
-    id: 3,
+    id: '3',
     type: 'House',
     name: 'House 3',
     description:
@@ -122,7 +122,7 @@ export const housesData = [
     },
   },
   {
-    id: 4,
+    id: '4',
     type: 'House',
     name: 'House 4',
     description:
@@ -144,7 +144,7 @@ export const housesData = [
     },
   },
   {
-    id: 5,
+    id: '5',
     type: 'House',
     name: 'House 5',
     description:
@@ -166,7 +166,7 @@ export const housesData = [
     },
   },
   {
-    id: 6,
+    id: '6',
     type: 'House',
     name: 'House 6',
     description:
@@ -188,7 +188,7 @@ export const housesData = [
     },
   },
   {
-    id: 7,
+    id: '7',
     type: 'Apartament',
     name: 'Apartament 1',
     description:
@@ -210,7 +210,7 @@ export const housesData = [
     },
   },
   {
-    id: 8,
+    id: '8',
     type: 'Apartament',
     name: 'Apartament 2',
     description:
@@ -232,7 +232,7 @@ export const housesData = [
     },
   },
   {
-    id: 9,
+    id: '9',
     type: 'Apartament',
     name: 'Apartament 3',
     description:
@@ -254,7 +254,7 @@ export const housesData = [
     },
   },
   {
-    id: 10,
+    id: '10',
     type: 'House',
     name: 'House 7',
     description:
@@ -276,7 +276,7 @@ export const housesData = [
     },
   },
   {
-    id: 11,
+    id: '11',
     type: 'House',
     name: 'House 8',
     description:
@@ -298,7 +298,7 @@ export const housesData = [
     },
   },
   {
-    id: 12,
+    id: '12',
     type: 'House',
     name: 'House 9',
     description:
@@ -320,7 +320,7 @@ export const housesData = [
     },
   },
   {
-    id: 13,
+    id: '13',
     type: 'House',
     name: 'House 10',
     description:
@@ -342,7 +342,7 @@ export const housesData = [
     },
   },
   {
-    id: 14,
+    id: '14',
     type: 'House',
     name: 'House 11',
     description:
@@ -364,7 +364,7 @@ export const housesData = [
     },
   },
   {
-    id: 15,
+    id: '15',
     type: 'House',
     name: 'House 12',
     description:
@@ -386,7 +386,7 @@ export const housesData = [
     },
   },
   {
-    id: 16,
+    id: '16',
     type: 'Apartament',
     name: 'Apartament 16',
     description:
@@ -408,7 +408,7 @@ export const housesData = [
     },
   },
   {
-    id: 17,
+    id: '17',
     type: 'Apartament',
     name: 'Condo 7',
     description:
@@ -430,7 +430,7 @@ export const housesData = [
     },
   },
   {
-    id: 18,
+    id: '18',
     type: 'Apartament',
     name: 'Apartament 18',
     description:

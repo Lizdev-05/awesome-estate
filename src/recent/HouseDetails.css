@@ -1,0 +1,16 @@
+.detail{
+color: rgb(38, 38, 38);
+ padding: 2rem;
+ border-radius: 2rem;
+ box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+}
+
+.imgLg img{
+  border-radius: 2rem;
+}
+
+.detail span{
+  margin-right: 1rem;
+}
+
+
