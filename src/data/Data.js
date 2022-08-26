@@ -14,11 +14,15 @@ import cityFive from '../assets/images/location/city-5.png';
 import citySix from '../assets/images/location/city-6.png';
 
 // Team images
-import teamOne from '../assets/images/customer/team-1.jpg';
-import teamTwo from '../assets/images/customer/team-2.jpg';
-import teamThree from '../assets/images/customer/team-3.jpg';
-import teamFour from '../assets/images/customer/team-4.jpg';
-import teamFive from '../assets/images/customer/team-5.jpg';
+import teamOne from '../assets/images/customer/abdel.png';
+import teamTwo from '../assets/images/customer/chris.png';
+import teamThree from '../assets/images/customer/Nic.png';
+import teamFour from '../assets/images/customer/sid.png';
+import teamFive from '../assets/images/customer/said.png';
+import teamSix from '../assets/images/customer/piesie.png';
+import teamSeven from '../assets/images/customer/Lade.jpg';
+import teamEigth from '../assets/images/customer/Dorian.png';
+import teamNine from '../assets/images/customer/Owusu.png';
 // import teamSix from '../assets/images/customer/team-3.jpg';
 
 export const featured = [
@@ -182,42 +186,63 @@ export const team = [
     list: '50',
     cover: teamOne,
     address: 'Liverpool, Canada',
-    name: 'Sargam S. Singh',
+    name: 'Abdelmejid Ali Oumer',
     icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
   },
   {
     list: '70',
     cover: teamTwo,
-    address: 'Montreal, Canada',
-    name: 'Harijeet M. Siller',
+    address: 'Liverpool, London',
+    name: 'Chrispaix Kaze',
     icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
   },
   {
     list: '80',
     cover: teamThree,
-    address: 'Denever, USA',
-    name: 'Anna K. Young',
+    address: 'Denver, USA',
+    name: 'Nicholas Emmanuel',
+    icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
+  },
+  {
+    list: '50',
+    cover: teamEigth,
+    address: '210 Zirak Road, Canada',
+    name: 'Dorian Urem',
+    icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
+  },
+  {
+    list: '50',
+    cover: teamSeven,
+    address: 'Liverpool, Canada',
+    name: 'Oyinlade Ojesanmi',
+    icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
+  },
+  {
+    list: '50',
+    cover: teamNine,
+    address: 'New Orleans, Louisiana',
+    name: 'Desmond Owusu',
     icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
   },
   {
     list: '51',
     cover: teamFour,
     address: '2272 Briarwood Drive',
-    name: 'Michael P. Grimaldo',
+    name: 'Sidney Kaguli',
     icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
   },
   {
     list: '42',
     cover: teamFive,
     address: '2272 Briarwood Drive',
-    name: 'Michael P. Grimaldo',
+    name: 'Said Laasri',
     icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
   },
   {
     list: '38',
-    cover: teamThree,
+    cover: teamSix,
     address: 'Montreal, USA',
-    name: 'Adam K. Jollio',
+    name: 'Piesie Yeboa',
     icon: [<i className="fa-brands fa-facebook-f" />, <i className="fa-brands fa-linkedin" />, <i className="fa-brands fa-twitter" />, <i className="fa-brands fa-instagram" />],
   },
 ];

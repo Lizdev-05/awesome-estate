@@ -36,6 +36,7 @@ const HouseDetails = () => {
             { bedrooms}
             Bedrooms
           </span>
+          <span>|</span>
           <span>
             { bathrooms}
             Bathrooms
