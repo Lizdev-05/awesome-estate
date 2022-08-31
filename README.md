@@ -1,14 +1,14 @@
 # Awesome Estate
-The Awesome estate web application displays a list of apartments that were provided by a local data. The users can check out the featured and recebt apartment. Also, the user can click the house to get the details of the selected house.
+The Awesome estate web application displays a list of apartments that were provided by local data. The users can check out the featured and recent apartments. Also, the user can click the house to get the details of the selected house.
 
- The application consist of six pages, all of which are functioning.
+The application consists of six pages, all of which are functioning.
 
-This is a personal project I built to practise my knowledge of React js. The objective was to mimic the appearance of a dynamic web application, in a similar way a web developer would receive the requirements as if it were in a job.
-
+This is a personal project I built to practice my knowledge of React js. The objective was to mimic the appearance of a dynamic web application, in a similar way a web developer would receive the requirements as if it were in a job
 ![](./src/assets/Capture1.PNG)
 ![](./src/assets/Capture2.PNG)
 ![](./src/assets/Capture3.PNG)
 ## Live Demo
+[Click here for live demo](https://lizdev-awesome-estate.netlify.app/)
 
 
 ## Getting started
